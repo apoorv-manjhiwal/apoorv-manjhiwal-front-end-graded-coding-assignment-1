@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+
+    <link rel="stylesheet" href="formcss.css" />
+  </head>
+  <body>
+    <section>
+      <aside style="width: 20%; padding: 5px; float: right">
+        <img
+          src="C:\Users\Lenovo\Dropbox\My PC (DESKTOP-VUE4NBE)\Desktop\graded assignment 1\images\Images\Lab-Test\lab-test.jpg"
+        />
+      </aside>
+    </section>
+    <form action="">
+      <article>
+        <article>
+          <h1 class="style">Contact Details</h1>
+          <br />
+          <br />
+          <p>Full Name</p>
+          <input type="text" title=" Full Name" required />
+        </article>
+        <article>
+          <p>Patient ID if Exists</p>
+          <input type="number" title="Patient ID if Exists" required />
+        </article>
+        <article>
+          <p>Contact Number</p>
+          <input type="number" title="Contact Number" required />
+        </article>
+        <article>
+          <p>email ID</p>
+          <input type="email" title="email ID" required />
+        </article>
+        <article>
+          <h1 class="style">Address</h1>
+          <br />
+          <br />
+
+          <p>House Number</p>
+          <input type="text" required />
+          <p>Street</p>
+          <input type="text" required />
+          <p>area</p>
+          <input type="text" required />
+          <p>District</p>
+          <select name="District" id="district" required>
+            <option value="">Choose</option>
+            <option value="New Delhi">New delhi</option>
+            <option value="Jaipur">Jaipur</option>
+            <option value="Lucknow">Lucknow</option>
+          </select>
+        </article>
+        <article>
+          <h1 class="style">Choose the Test Type</h1>
+          <br />
+          <br />
+          <p>Check Atleat One Type Without Fail</p>
+          <input type="checkbox" id="c1" name="option1" value="CBC" />
+          <label for="c1">CBC</label>
+          <br />
+          <input
+            type="checkbox"
+            id="c2"
+            name="option2"
+            value="Complete Urine"
+          />
+          <label for="c2">Complete Urine</label>
+          <br />
+          <input type="checkbox" id="c3" name="option3" value="Lipid Profile" />
+          <label for="c3">Lipid Profile</label>
+          <br />
+          <input
+            type="checkbox"
+            id="c4"
+            name="option4"
+            value="Thyroid Stimulating Hormone"
+          />
+          <label for="c4">Thyroid Stimulating Hormone</label>
+          <br />
+          <input type="checkbox" id="c5" name="option5" value="Glucose Test" />
+          <label for="c5">Glucose Test</label>
+          <br />
+        </article>
+        <article>
+          <h1 class="style">Do You Want A Hard Copy Of The Report Also?</h1>
+          <input type="radio" id="r1" name="option1" value="Yes" />
+          <label for="r1">Yes</label>
+          <input type="radio" id="r2" name="option2" value="No" />
+          <label for="r1">No</label>
+        </article>
+        <article>
+          <br />
+          <br />
+          <h1 class="style">select your comfortable date and time</h1>
+          <input type="datetime-local" value="date-time local" required />
+        </article>
+        <button>Reset</button>
+        <button>Submit</button>
+      </article>
+    </form>
+  </body>
+</html>

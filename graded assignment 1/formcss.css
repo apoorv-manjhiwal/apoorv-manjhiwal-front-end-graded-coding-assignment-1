@@ -1,0 +1,101 @@
+body {
+    background-color: white;
+
+}
+header {
+    border-radius: 5px;
+    height: auto;
+    text-align: center;
+    background-color: purple;
+}
+footer {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+p, h1 {
+    padding: 10px;
+    margin: 0px;
+}
+section {
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    width: 50%;
+}
+article {
+    min-width: 300px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    /* border: 1px solid steelblue; */
+}
+input{
+    width: 300px;
+    border: none;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    height: 30px;
+}
+input, label, p, #district {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+
+button{
+    display: block;
+    margin: 20px;
+    width: 80px;
+    border-radius: 4px;
+    height: 30px;
+    color: white;
+    font-size: 18px;
+    float: right;
+    border: none;
+    background-color: rgb(174, 102, 174);
+}
+#district {
+    height: 50px;
+}
+header p {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+input:focus {
+    color: rgb(30, 232, 111);
+    background-color: rgb(168, 29, 233);
+}
+header p::first-line{
+    font-weight: bold;
+    color: blue;
+}
+input[name^="options"] {
+    width: 20px;
+    height: 20px;
+}
+img {
+    width: 300%;
+}
+.edit{
+    margin-right: 50%;
+}
+
+
+
+form img, form input{
+    display:inline-block;
+}
+article p::after{
+    content: "*";
+    color: red;
+}
+
+.style {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+}
+

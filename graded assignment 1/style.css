@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+.fixed {
+    position: fixed;
+    width: 100%;
+    padding-bottom: 50px;
+}
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+header {
+    padding: 40px;
+    background-color: rgb(98, 98, 98);
+}
+#menu-btn:hover {
+    background-color: #000;
+    color: white;
+}
+
+
+#menu {
+    background-color: gray;
+    margin: 0%;
+  }
+  #menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12pt;
+  }
+  #menu li {
+    display: inline-block;
+    padding: 8px;
+  }
+
+  #menu li:nth-child(2):hover #dropdown1,
+  #menu li:nth-child(3):hover #dropdown2 {
+    display: block;
+  }
+  #dropdown1,
+  #dropdown2 {
+    display: none;
+    position: absolute;
+    width: auto;
+    max-width: 120px;
+    background-color: whitesmoke;
+    padding: 0px;
+    top: 230px;
+  }
+  #dropdown1 li,
+  #dropdown2 li {
+    display: block;
+  }
+  #dropdown1 li :hover,
+  #dropdown2 li :hover {
+    background-color: gainsboro;
+    color: black;
+  }
+  #dropdown1 li a,
+  #dropdown2 li a {
+    color: black;
+  }
+  #black:hover {
+    color: black;
+    display: block;
+  }
+.p-class {
+    font-size: 22px;
+    color: rgba(28, 28, 157, 0.485);
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    display: inline-block;
+    
+  }
+img{
+    padding: 0px, 10px;
+}
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: solid;
+    border-radius: 10px;
+    font-weight: 200%;
+    outline: 0;
+    padding: 12px;
+    color: orange;
+    background-color: rgba(36, 36, 127, 0.082);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  .carousel {
+    background: #EEE;
+  }
+  
+  .carousel-cell {
+    width: 66%;
+    height: 300px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+    content: (gallery-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+
+  footer{
+    padding-top: 30px;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  
+  
